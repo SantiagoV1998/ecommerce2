@@ -7,6 +7,11 @@ import Rails from "@rails/ujs"
 import Turbolinks from "turbolinks"
 import * as ActiveStorage from "@rails/activestorage"
 import "channels"
+import "bootstrap"
+import "@fortawesome/fontawesome-free/css/all"
+import "./src/aplication.scss"
+global.$ =jQuery
+global.$ =jquery
 
 Rails.start()
 Turbolinks.start()
